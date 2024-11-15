@@ -107,7 +107,8 @@ $user_email = $_SESSION['email'];
             <div class="card">
                 <h2>Register a Student</h2>
                 <p>This section allows you to register a new student in the system. Click the button below to proceed with the registration process.</p>
-                <button onclick="window.location.href='register_student.php'" class="btn">Register</button>
+                <button onclick="window.location.href='student/register.php'" class="btn">Register</button>
+                
             </div>
         </div>
     </div>
