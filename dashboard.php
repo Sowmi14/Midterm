@@ -95,7 +95,7 @@ $user_email = $_SESSION['email'];
 </head>
 <body>
     <div class="container">
-        <button onclick="window.location.href='logout.php'" class="logout-btn">Logout</button>
+    <button onclick="window.location.href='logout.php'" class="logout-btn">Logout</button>
         <h1>Welcome to the System: <?php echo htmlspecialchars($user_email); ?></h1>
 
         <div class="card-container">
